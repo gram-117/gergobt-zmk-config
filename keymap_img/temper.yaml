@@ -2,14 +2,14 @@ layers:
   default:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - {t: A, h: ⌘}
-    - {t: S, h: ⎇}
+    - S
     - {t: D, h: ⌃}
-    - {t: F, h: LSHIFT}
+    - F
     - G
     - H
-    - {t: J, h: RSHIFT}
-    - {t: K, h: ⌃}
-    - {t: L, h: ⎇}
+    - J
+    - K
+    - {t: L, h: ⌃}
     - {t: ;, s: ':'}
   - - Z
     - X
@@ -21,7 +21,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - [num, ⇧, BSPC, ENTER, SPACE, key]
+  - - {t: ▽, type: trans}
+    - ⇧
+    - BSPC
+    - ENTER
+    - SPACE
+    - {t: ▽, type: trans}
   key:
   - - '~'
     - '@'
@@ -58,7 +63,7 @@ layers:
     - BSPC
     - ENTER
     - SPACE
-    - {type: held}
+    - {t: ▽, type: trans}
   num:
   - - END
     - DEL
@@ -70,7 +75,7 @@ layers:
     - '8'
     - '9'
     - '*'
-  - - '&Kp LEFT'
+  - - ←
     - ↓
     - ↑
     - →
@@ -90,7 +95,7 @@ layers:
     - '8'
     - '9'
     - /
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - BSPC
     - ENTER
@@ -132,4 +137,4 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
