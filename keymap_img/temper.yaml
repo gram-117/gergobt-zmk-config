@@ -21,12 +21,7 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - {t: ▽, type: trans}
-    - ⇧
-    - BSPC
-    - ENTER
-    - SPACE
-    - {t: ▽, type: trans}
+  - [num, ⇧, BSPC, ENTER, SPACE, key]
   key:
   - - '~'
     - '@'
@@ -63,7 +58,7 @@ layers:
     - BSPC
     - ENTER
     - SPACE
-    - {t: ▽, type: trans}
+    - {type: held}
   num:
   - - END
     - DEL
@@ -95,7 +90,7 @@ layers:
     - '8'
     - '9'
     - /
-  - - {t: ▽, type: trans}
+  - - {type: held}
     - {t: ▽, type: trans}
     - BSPC
     - ENTER
@@ -108,9 +103,9 @@ layers:
     - F4
     - F5
     - {t: ▽, type: trans}
-    - '7'
-    - '8'
-    - '9'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - F6
     - F7
@@ -119,8 +114,8 @@ layers:
     - F10
     - PSCRN
     - HOME
-    - '5'
-    - '6'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - F11
     - F12
@@ -128,13 +123,13 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '7'
-    - '8'
-    - '9'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
