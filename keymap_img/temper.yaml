@@ -2,15 +2,15 @@ layers:
   default:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - {t: A, h: ⌘}
-    - S
-    - D
-    - F
+    - {t: S, h: ⎇}
+    - {t: D, h: ⌃}
+    - {t: F, h: ⇧}
     - G
     - H
-    - J
-    - K
-    - L
-    - {t: ;, s: ':'}
+    - {t: J, h: RSHIFT}
+    - {t: K, h: ⌃}
+    - {t: L, h: ⎇}
+    - '&kc SEMI'
   - - Z
     - X
     - C
