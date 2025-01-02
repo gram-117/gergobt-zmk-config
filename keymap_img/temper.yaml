@@ -4,7 +4,7 @@ layers:
   - - {t: A, h: ⌘}
     - '&kc S'
     - {t: D, h: ⌃}
-    - '&kc LSHFT F'
+    - '&kc F'
     - G
     - H
     - '&kc J'
