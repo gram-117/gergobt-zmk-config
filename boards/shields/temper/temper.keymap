@@ -26,11 +26,6 @@
             hold-trigger-on-release;
             bindings = <&kp>, <&kp>;
         };
-
-        sensors {
-                compatible = "zmk,keymap-sensors";
-                sensors = <&encoder_left &encoder_right>;
-            };
       
     };
         keymap {
