@@ -43,6 +43,7 @@
                                     &mo NUM        &kp LSHFT     &kp BSPC          &kp ENTER    &kp SPACE    &mo KEY
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
                 key_layer {
                         bindings = <
@@ -56,6 +57,7 @@
                                     &mo EXTRA      &trans    &kp BSPC        &kp ENTER    &kp SPACE     &trans
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
                 num_layer {
@@ -70,6 +72,7 @@
                                     &trans        &trans        &kp BSPC          &kp ENTER     &kp SPACE      &mo EXTRA
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
                  extra_layer {
@@ -84,6 +87,7 @@
                                     &trans        &trans        &trans            &trans        &trans        &trans
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
                 
