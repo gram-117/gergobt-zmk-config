@@ -16,10 +16,6 @@
 
 / {
         
-        sensors {
-                compatible = "zmk,keymap-sensors";
-                sensors = <&encoder_left &encoder_right>;
-            };
 
     behaviors {
         bhm: balanced_homerow_mods {
@@ -34,6 +30,13 @@
         };
       
     };
+
+    sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &right_encoder>;
+    };
+
+
         keymap {
                 compatible = "zmk,keymap";
 
