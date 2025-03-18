@@ -6,4 +6,7 @@ nice!view and EC12 on both left and right halves
 
 timerless hrms
 
+current keymap: (mostly up to date)
+![Uploading image.png…]()
+
 
