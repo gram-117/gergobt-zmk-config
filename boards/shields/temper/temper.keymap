@@ -58,7 +58,7 @@
                 key_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &kp TILDE       &kp AT       &kp HASH    &kp DLLR     &kp PRCNT          &trans        &kp  LPAR    &kp RPAR        &kp PRCNT      &kp CARET
+      &kp GRAVE       &kp AT       &kp HASH    &kp DLLR     &kp PRCNT          &trans        &kp  LPAR    &kp RPAR        &kp PRCNT      &kp CARET
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
  &bhm LGUI EXCL &bhm LCTRL BSLH  &bhm LALT APOS &bhm LSHFT DQT    &trans     &kp UNDER     &bhm RSHFT LBRC &bhm RALT RBRC &bhm RCTRL AMPS &bhm RGUI STAR
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
